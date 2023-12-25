@@ -1,7 +1,6 @@
 const buttons = document.querySelectorAll('input[type="button"]');
 const display = document.querySelector("#display");
-console.log(buttons);
-console.log(display);
+
 buttons.forEach((button) => {
   button.addEventListener("click", function () {
     switch (this.value) {
